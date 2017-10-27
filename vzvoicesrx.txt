@@ -1,2 +1,18 @@
 ## Juniper Configuration for Voice Router
 ## Some elements have been removed for security
+set interfaces ge-0/0/0 vlan-tagging
+set interfaces ge-0/0/0 unit 0 description "Verizon CoVA-Arlington-PS; Site-Circuit: ashburn-va_bcblcb8l0001-edblcb5k0001-5922179"
+set interfaces ge-0/0/0 unit 0 vlan-id 14
+set interfaces ge-0/0/0 unit 0 family inet address 65.249.110.98/30
+set interfaces ge-0/0/1 description APS-Internal-Mitel
+set interfaces ge-0/0/1 unit 0 family inet address 10.26.0.41/24
+set interfaces ge-0/0/2 unit 0 family ethernet-switching vlan members vlan-trust
+set interfaces ge-0/0/3 unit 0 family ethernet-switching vlan members vlan-trust
+set interfaces ge-0/0/4 unit 0 family ethernet-switching vlan members vlan-trust
+set interfaces ge-0/0/5 unit 0 family ethernet-switching vlan members vlan-trust
+set interfaces ge-0/0/6 unit 0 family ethernet-switching vlan members vlan-trust
+set interfaces ge-0/0/7 unit 0 family ethernet-switching vlan members vlan-trust
+set interfaces irb unit 0 family inet address 192.168.1.1/24
+set routing-options autonomous-system 1
+set protocols bgp group VERIZON_EXTERNAL neighbor 65.249.110.97 peer-as 65000
+set protocols l2-learning global-mode switching
