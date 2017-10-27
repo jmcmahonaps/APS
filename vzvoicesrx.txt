@@ -1,0 +1,2 @@
+## Juniper Configuration for Voice Router
+## Some elements have been removed for security
