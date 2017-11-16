@@ -1,11 +1,15 @@
 Change: Upgrade Panorama & Log Collector to Version 8.0.6
 Systems Affected: Panorama (10.0.42.48), Log Collector (10.0.42.46)
  
+ 
 Downtime/Impact: 
+
  
 Steps to Completion:
  
+ 
 Prestage Steps:
+
  
 1. Delete mid-versions of PAN-OS, leaving 7.1.0 and 7.1.8, to free up space
 2. Prestage/Download Panorama 8.0 Software (Panorama/Software/Download 8.0) on Panorama
