@@ -1,7 +1,7 @@
 Change: Upgrade Panorama & Log Collector to Version 8.0.6
 Systems Affected: Panorama (10.0.42.48), Log Collector (10.0.42.46)
 
-**Important Resource** https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/framemaker/80/pan-os/NewFeaturesGuide/section_1.pdf
+**Important Resource:** https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/framemaker/80/pan-os/NewFeaturesGuide/section_1.pdf
 
 **Pre-Upgrade Steps**
 
