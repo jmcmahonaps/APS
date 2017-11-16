@@ -24,7 +24,7 @@ Systems Affected: Panorama (10.0.42.48), Log Collector (10.0.42.46)
 
 
  
-Upgrade Considerations:
+**Upgrade Considerations/Notes:**
 
 	- Check GlobalProtect Gateways for 8.0 System Requirements/Compatibility Before Upgrading to 8.0 (page 9)
 	- "After upgrading, the Panorama virtual appliance remains in Legacy mode by default and can still support NFS log storage. However, after you switch to Panorama mode, the virtual appliance can no longer support NFS storage; you must then migrate the logs on the NFS to the Log Collectors."  (page 13)
