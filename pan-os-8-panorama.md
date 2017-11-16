@@ -4,7 +4,7 @@ Systems Affected: Panorama (10.0.42.48), Log Collector (10.0.42.46)
  
 Downtime/Impact: 
 
- 
+
 Steps to Completion:
  
  
