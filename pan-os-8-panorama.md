@@ -1,7 +1,11 @@
 Change: Upgrade Panorama & Log Collector to Version 8.0.6
 Systems Affected: Panorama (10.0.42.xx), Log Collector (10.0.42.xx)
 
-**Important Resource:** https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/framemaker/80/pan-os/NewFeaturesGuide/section_1.pdf
+**Important Resources:** https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/framemaker/80/pan-os/NewFeaturesGuide/section_1.pdf
+
+
+https://live.paloaltonetworks.com/t5/Community-Blog/Upgrade-Panorama-logs-to-PAN-OS-8-0-FAQ/ba-p/154755)
+
 
 **Pre-Upgrade Steps**
 
@@ -29,7 +33,7 @@ Systems Affected: Panorama (10.0.42.xx), Log Collector (10.0.42.xx)
 5. Check the "Reboot device after install" button, then click "OK" to install.
 6. Repeat steps 3-5 for PAN-OS 8.0.6.
 7. When Data comes back up, log into PANORAMA (NOT DATA) via the CLI.
-8. Run the command "request logdb migrate lc serial-number 007307***" to begin the migration of Data's logs to the new PAN-OS 8 log format. This is the serial number for Data. (more info: https://live.paloaltonetworks.com/t5/Community-Blog/Upgrade-Panorama-logs-to-PAN-OS-8-0-FAQ/ba-p/154755)
+8. Run the command "request logdb migrate lc serial-number 007307***" to begin the migration of Data's logs to the new PAN-OS 8 log format. This is the serial number for Data.
 
 
 **Upgrade Considerations/Notes:**
