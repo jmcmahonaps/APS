@@ -19,19 +19,17 @@ https://live.paloaltonetworks.com/t5/Community-Blog/Upgrade-Panorama-logs-to-PAN
 **Upgrade Steps: Panorama**
 
 1. Panorama is upgraded first, followed by the log collector. (page 16)
-2. Log-in to Panorama, select "Panorama" context. PAN-OS 8.0.2 is already downloaded to Panorama. PAN-OS 8.0.2 must be installed before PAN-OS 8.0.6 can be installed.
-3. Allow the installer for PAN-OS 8.0.2 to go through the install process. Reboot Panorama when install is complete to finalize installation.
+2. Log-in to Panorama, select "Panorama" context. Download PAN-OS 8.0.2 and PAN-0S 8.0.6.
+3. Allow the installer for PAN-OS 8.0.6 to go through the install process. This will install 8.0.2 as a base image and 8.0.6 as an upgrade. Reboot Panorama when install is complete to finalize installation.
 4. Ensure that Panorama is reachable after installation and still functional.
-5. Log-in to Panorama, select "Panorama" context. Click on "download" next to PAN-OS 8.0.6. Repeat steps 3-4 for PAN-OS 8.0.6.
 
 **Upgrade Steps: Log Collector**
 
-1. PAN-OS 8.0.2 is already downloaded to Panorama.
+1. PAN-OS 8.0.2 and 8.0.6 already downloaded to Panorama.
 2. Log-in to Panorama. Click on the "Panorama" tab. On the left sidebar, expand "Device Deployment." Click on "Software."
-3. Use the search bar to search fo 8.0.2. Click on "install" under "action."
+3. Use the search bar to search fo 8.0.6. Click on "install" under "action."
 4. Select "Data" from the device list. (Data is the log collector)
 5. Check the "Reboot device after install" button, then click "OK" to install.
-6. Repeat steps 3-5 for PAN-OS 8.0.6.
 7. When Data comes back up, log into PANORAMA (NOT DATA) via the CLI.
 8. Run the command "request logdb migrate lc serial-number 007307***" to begin the migration of Data's logs to the new PAN-OS 8 log format. This is the serial number for Data.
 
