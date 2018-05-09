@@ -1,6 +1,6 @@
 ### Notes for Creating Active LACP Port-Channels in ArubaOS
 
-We ran into a vendor interoperability issue between our ArubaOS and Juniper EX4600 switches. Where the port channel configuration for an aruba-to-aruba aggregated link looks like this, essentially:
+We ran into a vendor interoperability issue between our ArubaOS and Juniper EX4600 switches where the port channel configuration for an aruba-to-aruba aggregated link looks like this, essentially:
 
 `interface port-channel "$channel-id"`\
    `description "$description"`\
